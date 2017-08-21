@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-b9lab-splitter",
+  "version": "1.0.0",
+  "description": "there are 3 people: Alice, Bob and Carol     we can see the balance of the Splitter contract on the web page     whenever Alice sends ether to the contract, half of it goes to Bob and the other half to Carol     we can see the balances of Alice, Bob and Carol on the web page     we can send ether to it from the web page",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theraaz/ethereum-b9lab-splitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theraaz/ethereum-b9lab-splitter/issues"
+  },
+  "homepage": "https://github.com/theraaz/ethereum-b9lab-splitter#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.18"
+  }
+}

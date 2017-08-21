@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Splitter</title>
+</head>
+<body>
+
+	<div>
+		<strong>Contract Balance: </strong><span id="contractBalance"></span><br>
+		<strong>Alice Balance: </strong><span id="aliceBalance"></span>	<br>
+		<strong>Bob Balance: </strong><span id="bobBalance"></span>	<br>
+		<strong>Carol Balance: </strong><span id="carolBalance"></span>	<br>
+	</div>
+
+	<label>Send:</label>
+	<select id="sendFrom">
+		<option value="alice">From Alice</option>
+		<option value="bob">From Bob</option>
+		<option value="carol">From Carol</option>
+	</select>
+	<input type="number" id="sendingAmount">
+	<button type="button" onclick="sendFunds()">Send</button>
+</body>
+
+	<script type="text/javascript" src="./web3.min.js"></script>
+	<script type="text/javascript" src="./splitterCompiled.js"></script>
+	<script type="text/javascript" src="./splitter.js"></script>
+</html>
